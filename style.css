@@ -7,3 +7,20 @@
   box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
   color: white;
 }
+.search-form-input {
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(193, 194, 240);
+  color: white;
+  height: 40;
+}
+
+.search-form-value {
+  max-width: 20%;
+  background-color: rgb(193, 194, 240);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  height: 40;
+}
