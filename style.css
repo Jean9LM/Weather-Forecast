@@ -38,6 +38,36 @@ p {
   font-size: 100px;
   gap: 20px;
 }
-.current-temperature .temp-description {
-  font-size: 10px;
+
+.current-stats .stat-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 80px;
+  width: 100%;
+  background-color: #537895;
+  border-radius: 10px;
+}
+.current-stats .stat-content .temp-high {
+  padding: 10px;
+  margin: 0px auto;
+}
+.current-stats .stat-content .temp-low {
+  padding: 10px;
+  margin: 0px auto;
+}
+.current-stats .stat-content .sunrise {
+  padding: 10px;
+  margin: 0px auto;
+}
+.current-stats .stat-content .mph {
+  padding: 10px;
+  margin: 0px auto;
+}
+.current-stats .stat-content .rain {
+  padding: 10px;
+  margin: 0px auto;
+}
+.current-stats .stat-content .sunset {
+  padding: 10px;
+  margin: 0px auto;
 }
