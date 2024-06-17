@@ -8,7 +8,7 @@ function refreshWeather(response) {
   let date = new Date(response.data.time * 1000);
   let dayElement = document.querySelector("#day");
   let iconElement = document.querySelector("#icon");
-  iconElement.innerHTML = `🚵🏻‍♀️`;
+  iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class = "current-temperature" />`;
   cityElement.innerHTML = response.data.city;
   descriptionElement.innerHTML = response.data.condition.description;
   dayElement.innerHTML = formatDate(date);

@@ -78,7 +78,12 @@ p {
   color: #8ab9dd;
 }
 
-.current-temperature .icon {
+.current-temperature #icon {
   width: 60px;
   height: 44px;
+}
+
+img.current-temperature {
+  width: 150px;
+  height: 150px;
 }
