@@ -8,7 +8,7 @@
   <body>
     <div class="weather-app">
       <div class="location-and-date">
-        <h1>London, UK</h1>
+        <h1 id="city">London, UK</h1>
         <p>Monday 29 August</p>
       </div>
       <div class="current-temperature">
@@ -30,12 +30,13 @@
       </div>
     
       <hr />
-      <form class="search-form">
+      <form class="search-form" id="search-form">
         <input
           type="search"
           placeholder="enter a city"
           required
           class="search-form-input"
+          id="search-form-input"
         />
         <input type="submit" value="search" class="search-form-value" />
       </form>
