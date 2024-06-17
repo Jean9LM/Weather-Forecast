@@ -24,6 +24,7 @@ p {
 
 .search-form-value {
   max-width: 20%;
+  width: 18%;
   background-color: rgb(193, 194, 240);
   border-radius: 10px;
   border: none;
