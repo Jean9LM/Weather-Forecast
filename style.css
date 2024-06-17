@@ -72,3 +72,8 @@ p {
   padding: 10px;
   margin: 0px auto;
 }
+.description {
+  padding: 10px;
+  font-size: 14px;
+  color: #8ab9dd;
+}
