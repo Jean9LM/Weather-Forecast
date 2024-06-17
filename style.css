@@ -77,3 +77,8 @@ p {
   font-size: 14px;
   color: #8ab9dd;
 }
+
+.current-temperature .icon {
+  width: 60px;
+  height: 44px;
+}
