@@ -2,7 +2,10 @@ function refreshWeather(response) {
   let temperatureElement = document.querySelector(".weather-app-unit");
   let temperature = response.data.temperature.current;
   let cityElement = document.querySelector("#city");
+
+  let descriptionElement = document.querySelector("#descript");
   cityElement.innerHTML = response.data.city;
+  descriptionElement.innerHTML = response.data.condition.description;
   temperatureElement.innerHTML = Math.round(temperature);
 }
 
