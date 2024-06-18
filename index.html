@@ -8,9 +8,9 @@
   </head>
   <body>
     <div class="weather-app">
-         <h1 id="city">City</h1>
+      <h1 id="city">City</h1>
       <div class="location-and-date">
-        <span id ="day"></span>
+        <span id="day"></span>
       </div>
       <div class="current-temperature">
         <span class="icon" id="icon">🌤</span>
@@ -21,41 +21,42 @@
         <div class="stat-content">
           <div class="temp-high">23&deg; <br />High</div>
           <div class="wind" id="wind-speed">
-            7 mph <br />
-            Wind
+            <span id="title">Wind</span>
           </div>
-          <div class="sunrise" id="humidity">-- <br /></div>
-          <div class="temp-low">14&deg; <br />Low</div>
-          <div class="rain">0% <br />Rain</div>
-          <div class="sunset">20:57 <br />Sunset</div>
+            <div class="sunrise" id="humidity"><span>Humidity</span></div>
+            <div class="temp-low">14&deg; <br />Low</div>
+            <div class="rain">0% <br />Rain</div>
+            <div class="sunset">20:57 <br />Sunset</div>
+          </div>
         </div>
-      </div>
-    
-      <hr />
-      <form class="search-form" id="search-form">
-        <input
-          type="search"
-          placeholder="enter a city"
-          required
-          class="search-form-input"
-          id="search-form-input"
-        />
-        <input type="submit" value="search" class="search-form-value" />
-      </form>
-      <footer>
-        Coded by
-        <a href="https://github.com/Jean9LM/Weather-Forecast" target="_blank"
-          >Jeannine</a
-        >
-        on
-        <a href="https://github.com/Jean9LM/Weather-Forecast" target="_blank"
-          >GitHub</a
-        >
-        and hosted by
-        <a href="https://main--jeannineweatherapp.netlify.app/" target="_blank"
-          >Nelify</a
-        >
-      </footer>
+
+        <hr />
+        <form class="search-form" id="search-form">
+          <input
+            type="search"
+            placeholder="enter a city"
+            required
+            class="search-form-input"
+            id="search-form-input"
+          />
+          <input type="submit" value="search" class="search-form-value" />
+        </form>
+        <footer>
+          Coded by
+          <a href="https://github.com/Jean9LM/Weather-Forecast" target="_blank"
+            >Jeannine</a
+          >
+          on
+          <a href="https://github.com/Jean9LM/Weather-Forecast" target="_blank"
+            >GitHub</a
+          >
+          and hosted by
+          <a
+            href="https://main--jeannineweatherapp.netlify.app/"
+            target="_blank"
+            >Nelify</a
+          >
+        </footer>
       </div>
     </div>
     <script src="app.js"></script>
