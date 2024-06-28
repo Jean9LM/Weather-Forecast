@@ -16,21 +16,22 @@
         <span class="icon" id="icon">🌤</span>
         <div class="weather-app-unit">&deg;</div>
       </div>
+      
       <div class="description" id="descript">Light clouds and rain</div>
       <div class="current-stats">
         <div class="stat-content">
-          <div class="temp-high">23&deg; <br />High</div>
+           <div id="title">Wind</div>
           <div class="wind" id="wind-speed">
-            <span id="title">Wind</span>
           </div>
-          <div class="sunrise" id="humidity"><span>Humidity</span></div>
-          <div class="temp-low">14&deg; <br />Low</div>
-          <div class="rain">0% <br />Rain</div>
-          <div class="sunset">20:57 <br />Sunset</div>
+            <div id="title">Humidity</div>
+          <div class="humidity" id="humidity"></div>
+         
         </div>
+       
       </div>
 
-      <hr />
+    
+        <div class="weather-forecast" id="forecast"></div>
       <form class="search-form" id="search-form">
         <input
           type="search"
@@ -41,7 +42,7 @@
         />
         <input type="submit" value="search" class="search-form-value" />
       </form>
-      <div class="weather-forecast" id="forecast"></div>
+    
 
         <footer>
           Coded by
