@@ -88,3 +88,31 @@ img.current-temperature {
   width: 150px;
   height: 150px;
 }
+
+.weather-forecast-date {
+  text-align: center;
+  color: rgb(193, 194, 240);
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-forecast-icon {
+  font-size: 30px;
+  text-align: center;
+}
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #8ab9dd;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
